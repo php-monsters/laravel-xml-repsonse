@@ -100,10 +100,12 @@ class XmlResponse
      * @param $array
      * @param bool $xml
      * @param array $headerAttribute
+     * @param string $template
+     *
      * @return mixed
      * @throws XmlResponseException
      */
-    function array2xml($array, $xml = false, $headerAttribute = [])
+    function array2xml($array, $xml = false, $headerAttribute = [], $template = null)
     {
         if (!$this->isType(gettype($array))){
             throw new XmlResponseException('It is not possible to convert the data');
@@ -113,8 +115,10 @@ class XmlResponse
             $array = $array->toArray();
         }
 
+        $tmpl = empty($template) ? $this->template : $template;
+
         if($xml === false){
-            $xml = new \SimpleXMLElement($this->template);
+            $xml = new \SimpleXMLElement($tmpl);
         }
 
         $this->addAttribute($headerAttribute, $xml);

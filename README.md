@@ -23,7 +23,7 @@ php artisan vendor:publish
 
 ### Example
 ```php
-//default template from xml.php config file like: '<root></root>'
+// basic usage with default config from xml.php file
 Route::get('/', function () {
     return response()->xml(User::all());
 });
@@ -31,7 +31,7 @@ Route::get('/', function () {
 
 // custom template like: '<result></result>'
 Route::get('/foo', function () {
-    return response()->xml(['foo' => 1, 'bar' => 2, 'baz' => 3], '<result></result>);
+    return response()->xml(['foo' => 1, 'bar' => 2, 'baz' => 3], [], '<result></result>);
 });
 ```
 

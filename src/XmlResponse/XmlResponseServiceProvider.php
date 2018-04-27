@@ -25,8 +25,8 @@ class XmlResponseServiceProvider extends ServiceProvider
 
     public function register()
     {
-        Response::macro('xml', function ($value, $headerTemplate = []) {
-            return (new XmlResponse())->array2xml($value, false, $headerTemplate);
+        Response::macro('xml', function ($value, $headerTemplate = [], $template = null) {
+            return (new XmlResponse())->array2xml($value, false, $headerTemplate, $template);
         });
     }
 }
