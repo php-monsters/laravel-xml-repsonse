@@ -4,15 +4,15 @@ Added a method to Laravel response for handling xml response and also converting
 ### Composer Installation
 
 ```php
-composer require iamtartan/laravel-xml-repsonse
+composer require joker/laravel-xml-repsonse
 ```
 
 ### Integration with Laravel 5.*
 
-Add in config/app.php in place providers
+for Laravel < 5.6 add to config/app.php
 
 ```php
-Tartan\XmlResponse\XmlResponseServiceProvider::class
+Joker\XmlResponse\XmlResponseServiceProvider::class
 ```
 
 ### Publish
