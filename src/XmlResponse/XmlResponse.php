@@ -4,7 +4,7 @@ namespace Joker\XmlResponse;
 
 use Illuminate\Support\Facades\Response;
 use Illuminate\Container\Container;
-use Tartan\XmlResponse\Exception\XmlResponseException;
+use Joker\XmlResponse\Exception\XmlResponseException;
 
 /**
  * Class XmlResponse

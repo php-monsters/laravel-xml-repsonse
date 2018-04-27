@@ -23,8 +23,15 @@ php artisan vendor:publish
 
 ### Example
 ```php
+//default template from xml.php config file like: '<root></root>'
 Route::get('/', function () {
     return response()->xml(User::all());
+});
+
+
+// custom template like: '<result></result>'
+Route::get('/foo', function () {
+    return response()->xml(['foo' => 1, 'bar' => 2, 'baz' => 3], '<result></result>);
 });
 ```
 
