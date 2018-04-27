@@ -1,0 +1,24 @@
+{
+    "name": "joker/laravel-xml-response",
+    "description": "Added a method to Laravel response for handling xml response and also converting Eloquent return to XML.",
+    "keywords": ["xml", "laravel", "eloquent", "response"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aboozar Ghafari <Tartan>",
+            "email": "aboozar.ghf@gmail.com",
+            "homepage": "http://tartan.us.to/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.x.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "Joker\\XmlResponse\\": "src/XmlResponse"
+        }
+    },
+    "minimum-stability": "stable"
+}
