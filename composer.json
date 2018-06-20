@@ -1,5 +1,5 @@
 {
-    "name": "joker/laravel-xml-response",
+    "name": "tartan/laravel-xml-response",
     "description": "Added a method to Laravel response for handling xml response and also converting Eloquent return to XML.",
     "keywords": ["xml", "laravel", "eloquent", "response"],
     "type": "library",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Joker\\XmlResponse\\": "src/XmlResponse"
+            "Tartan\\XmlResponse\\": "src/XmlResponse"
         }
     },
     "minimum-stability": "stable"

@@ -1,10 +1,10 @@
 <?php
 
-namespace Joker\XmlResponse;
+namespace Tartan\XmlResponse;
 
 use Illuminate\Support\Facades\Response;
 use Illuminate\Container\Container;
-use Joker\XmlResponse\Exception\XmlResponseException;
+use Tartan\XmlResponse\Exception\XmlResponseException;
 
 /**
  * Class XmlResponse

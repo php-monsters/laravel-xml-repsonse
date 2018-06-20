@@ -1,4 +1,4 @@
 <?php
-namespace Joker\XmlResponse\Exception;
+namespace Tartan\XmlResponse\Exception;
 
 class XmlResponseException extends \Exception {}

@@ -1,6 +1,6 @@
 <?php
 
-namespace Joker\XmlResponse;
+namespace Tartan\XmlResponse;
 
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\ServiceProvider;

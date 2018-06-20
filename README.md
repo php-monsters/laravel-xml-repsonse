@@ -4,7 +4,7 @@ Added a method to Laravel response for handling xml response and also converting
 ### Composer Installation
 
 ```php
-composer require joker/laravel-xml-repsonse
+composer require tartan/laravel-xml-repsonse:"^5.0"
 ```
 
 ### Integration with Laravel 5.*
@@ -12,7 +12,7 @@ composer require joker/laravel-xml-repsonse
 for Laravel < 5.6 add to config/app.php
 
 ```php
-Joker\XmlResponse\XmlResponseServiceProvider::class
+Tartan\XmlResponse\XmlResponseServiceProvider::class
 ```
 
 ### Publish
@@ -37,11 +37,11 @@ Route::get('/foo', function () {
 
 ## Team
 
-This component is developed by the following person(s) and a bunch of [awesome contributors](https://github.com/thejokercoder/laravel-custom-validator/graphs/contributors).
+This component is developed by the following person(s) and a bunch of [awesome contributors](https://github.com/iamtartan/laravel-custom-validator/graphs/contributors).
 
-[![Aboozar Ghaffari](https://avatars1.githubusercontent.com/u/35990482?s=200&v=4)](https://github.com/thejokercoder) |
+[![Aboozar Ghaffari](https://avatars1.githubusercontent.com/u/502961?s=130&v=4)](https://github.com/iamtartan) |
 --- |
-[Aboozar Ghaffari](https://github.com/thejokercoder) |
+[Aboozar Ghaffari](https://github.com/iamtartan) |
 
 ## Support This Project
   
