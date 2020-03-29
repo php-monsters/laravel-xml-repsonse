@@ -4,7 +4,7 @@ Added a method to Laravel response for handling xml response and also converting
 ### Composer Installation
 
 ```php
-composer require tartan/laravel-xml-repsonse:"^5.0"
+composer require tartan/laravel-xml-response:"^5.0"
 ```
 
 ### Integration with Laravel 5.*
