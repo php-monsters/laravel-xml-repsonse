@@ -37,7 +37,7 @@ Route::get('/foo', function () {
 
 ## Team
 
-This component is developed by the following person(s) and a bunch of [awesome contributors](https://github.com/iamtartan/laravel-custom-validator/graphs/contributors).
+This component is developed by the following person(s) and a bunch of [awesome contributors](https://github.com/iamtartan/laravel-xml-repsonse/graphs/contributors).
 
 [![Aboozar Ghaffari](https://avatars1.githubusercontent.com/u/502961?s=130&v=4)](https://github.com/iamtartan) |
 --- |
