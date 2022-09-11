@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "PhpMonsters\\Log\\XLogServiceProvider"
+                "PhpMonsters\\XmlResponse\\XmlResponseServiceProvider"
             ]
         }
     },
