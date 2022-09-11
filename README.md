@@ -4,7 +4,7 @@ Added a method to Laravel response for handling xml response and also converting
 ### Composer Installation
 
 ```php
-composer require php-monsters/laravel-xml-repsonse
+composer require php-monsters/laravel-xml-response 
 ```
 
 ### Integration with Laravel 5.0+
@@ -18,7 +18,7 @@ PhpMonsters\XmlResponse\XmlResponseServiceProvider::class
 ### Publish
 
 ```php
-php artisan vendor:publish
+php artisan vendor:publish --provider="PhpMonsters\XmlResponse\XmlResponseServiceProvider"
 ```
 
 ### Example
