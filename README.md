@@ -37,15 +37,12 @@ Route::get('/foo', function () {
 
 ## Team
 
-This component is developed by the following person(s) and a bunch of [awesome contributors](https://github.com/iamtartan/laravel-custom-validator/graphs/contributors).
+This component is developed by the following person(s) and a bunch of [awesome contributors](https://github.com/iamtartan/laravel-xml-repsonse/graphs/contributors).
 
 [![Aboozar Ghaffari](https://avatars1.githubusercontent.com/u/502961?s=130&v=4)](https://github.com/iamtartan) |
 --- |
 [Aboozar Ghaffari](https://github.com/iamtartan) |
 
-## Support This Project
-  
-[![Donate via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LXEL22GFTXTKN)
 
 ### License
 
