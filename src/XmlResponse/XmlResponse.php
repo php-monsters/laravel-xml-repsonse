@@ -1,10 +1,10 @@
 <?php
 
-namespace Tartan\XmlResponse;
+namespace PhpMonsters\XmlResponse;
 
 use Illuminate\Support\Facades\Response;
 use Illuminate\Container\Container;
-use Tartan\XmlResponse\Exception\XmlResponseException;
+use PhpMonsters\XmlResponse\Exception\XmlResponseException;
 
 /**
  * Class XmlResponse
@@ -98,12 +98,13 @@ class XmlResponse
 
     /**
      * @param $array
-     * @param bool $xml
-     * @param array $headerAttribute
-     * @param string $template
+     * @param  bool  $xml
+     * @param  array  $headerAttribute
+     * @param  string  $template
      *
      * @return mixed
      * @throws XmlResponseException
+     * @throws \Exception
      */
     function array2xml($array, $xml = false, $headerAttribute = [], $template = null)
     {

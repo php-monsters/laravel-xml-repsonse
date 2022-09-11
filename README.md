@@ -4,15 +4,15 @@ Added a method to Laravel response for handling xml response and also converting
 ### Composer Installation
 
 ```php
-composer require tartan/laravel-xml-repsonse
+composer require php-monsters/laravel-xml-repsonse
 ```
 
-### Integration with Laravel 5.*
+### Integration with Laravel 5.0+
 
 for Laravel < 5.6 add to config/app.php
 
 ```php
-Tartan\XmlResponse\XmlResponseServiceProvider::class
+PhpMonsters\XmlResponse\XmlResponseServiceProvider::class
 ```
 
 ### Publish
@@ -37,11 +37,11 @@ Route::get('/foo', function () {
 
 ## Team
 
-This component is developed by the following person(s) and a bunch of [awesome contributors](https://github.com/iamtartan/laravel-xml-repsonse/graphs/contributors).
+This component is developed by the following person(s) and a bunch of [awesome contributors](https://github.com/samuraee/laravel-xml-repsonse/graphs/contributors).
 
-[![Aboozar Ghaffari](https://avatars1.githubusercontent.com/u/502961?s=130&v=4)](https://github.com/iamtartan) |
+[![Aboozar Ghaffari](https://avatars1.githubusercontent.com/u/502961?s=130&v=4)](https://github.com/samuraee) |
 --- |
-[Aboozar Ghaffari](https://github.com/iamtartan) |
+[Aboozar Ghaffari](https://github.com/samuraee) |
 
 
 ### License

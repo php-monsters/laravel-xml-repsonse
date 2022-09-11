@@ -1,6 +1,6 @@
 <?php
 
-namespace Tartan\XmlResponse;
+namespace PhpMonsters\XmlResponse;
 
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\ServiceProvider;
